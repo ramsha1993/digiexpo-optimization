@@ -1,0 +1,32 @@
+@use "~bootstrap/scss/bootstrap" as *;
+// Import only the specific Swiper modules you're using
+// (moved to per-component imports for better chunking)
+
+@use "/public/assets/scss/main.scss" as *;
+// @import "swiper/css";
+// @import "swiper/css/navigation";
+// @import "swiper/css/scrollbar";
+// @import "swiper/css/effect-fade";
+// @import "swiper/css/bundle";
+
+h4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.thank-you-title {
+    color: #7B42F7;
+    font-size: 85px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+/* Hide scrollbar while keeping scroll functionality */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
